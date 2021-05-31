@@ -1,0 +1,4 @@
+name: EstraSpawners
+version: 1.0
+main: net.estra.EstraSpawners.EstraSpawners
+depend: [CivModCore]

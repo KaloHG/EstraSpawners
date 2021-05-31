@@ -1,0 +1,19 @@
+sql:
+  host: 'localhost'
+  port: 3306
+  dbname: 'plugins'
+  username: 'root'
+  password: 'wtf'
+spawners:
+  exampleSpawner:
+    #ID for the spawner in the database.
+    id: "t1"
+    #Name of the spawner item
+    name: "T1 Spawner"
+    #Lore on the spawner item
+    lore:
+      - this isn't hellaz
+    #Amount of EXP generated
+    expGen: 100
+    #time (in seconds) for generation
+    expTime: 200
